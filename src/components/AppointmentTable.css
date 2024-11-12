@@ -1,0 +1,27 @@
+/* src/components/AppointmentTable.css */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #bc5481;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #bc5481;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  

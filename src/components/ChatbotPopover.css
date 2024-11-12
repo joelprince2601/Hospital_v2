@@ -1,0 +1,66 @@
+/* src/components/ChatbotPopover.css */
+.chatbot-popover {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .chatbot-toggle-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .chatbot-content {
+    width: 300px;
+    height: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chatbot-messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .message.user {
+    background-color: #daf8e3;
+    align-self: flex-end;
+  }
+  
+  .message.bot {
+    background-color: #f1f1f1;
+    align-self: flex-start;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .send-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  

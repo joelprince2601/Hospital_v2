@@ -1,0 +1,22 @@
+/* src/components/Table.css */
+.table-container {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
